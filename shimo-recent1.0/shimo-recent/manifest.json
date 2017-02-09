@@ -1,0 +1,26 @@
+{
+	"name": "石墨文档优化",
+	"version": "1.0",
+	"permissions": ["storage"],
+	"manifest_version": 2,
+	"description": "在石墨文档(shimo.im)的文档和表格页面顶部增加最近打开文档列表，可以选择是否在新窗口打开。",
+	"browser_action": {
+		"default_icon": "image/icon.png",
+		"default_popup": "popup.html"
+	},
+	"icons": {
+		"48": "image/icon48.png",
+		"128": "image/icon128.png"
+    },
+    "background": {
+		"page":"background.html"
+	},
+	"content_scripts": [
+		{
+		  "matches": ["https://shimo.im/doc/*", "https://shimo.im/spreadsheet/*"],
+		  "css": ["css/app.css"],
+		  "js": ["js/jquery.min.js", "js/app.js"]
+		}
+	]
+
+}
