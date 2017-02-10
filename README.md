@@ -26,9 +26,9 @@
 
 ### QQ浏览器
 
-- 下载shimo-recent文件
+- 下载shimo-recent.crx文件
 - 打开QQ浏览器，在地址栏中输入 ` qqbrowser://extensions/manage  ` 进入插件页面，或从右上角菜单进入应用中心-管理我的应用
-- 将shimo-recent文件拖动到浏览器中，提示安装
+- 将shimo-recent.crx文件拖动到浏览器中，提示安装
 - 安装完成之后即可使用
 
 ### 其他浏览器
