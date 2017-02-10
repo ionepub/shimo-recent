@@ -76,7 +76,7 @@ $(function(){
 		if(item.type == 0){
 			return '<li class="doc"><a href="https://shimo.im/doc/'+ item.guid +'" title="'+ item.name +'" '+ openOnNewStr +'><i></i><span>'+ item.name +'</span></a></li>';
 		}else if(item.type == -1){
-			return '<li class="xls"><a href="https://shimo.im/doc/'+ item.guid +'" title="'+ item.name +'" '+ openOnNewStr +'><i></i><span>'+ item.name +'</span></a></li>';
+			return '<li class="xls"><a href="https://shimo.im/spreadsheet/'+ item.guid +'" title="'+ item.name +'" '+ openOnNewStr +'><i></i><span>'+ item.name +'</span></a></li>';
 		}else{
 			return '';
 		}
